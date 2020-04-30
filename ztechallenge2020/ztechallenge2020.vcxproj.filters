@@ -1,22 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Data">
+      <UniqueIdentifier>{91460feb-a872-4e27-8a2b-a428f34dba67}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{18b9a489-563a-4ecf-afbf-14be6d10674b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="资源文件">
+    <Filter Include="Resource">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{3c9a1953-82f3-44bd-b23c-494637424b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{0841d464-b3bc-4fb0-8a30-2d45d51142ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ztechallenge2020.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Solver.cpp">
+      <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solver.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Instance\test.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\Instance\topoAndRequest1.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\Instance\topoAndRequest2.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\Instance\topoAndRequest3.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\Instance\topoAndRequest4.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\Instance\topoAndRequest5.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\Instance\topoAndRequest6.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\Instance\topoAndRequest7.txt">
+      <Filter>Resource</Filter>
+    </Text>
+    <Text Include="..\Instance\topoAndRequest8.txt">
+      <Filter>Resource</Filter>
+    </Text>
   </ItemGroup>
 </Project>
